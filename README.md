@@ -273,5 +273,4 @@ Configure MySQL: WITH YOUR PASSWORD AND host
 
 
 
-## License
-MIT License - See [LICENSE](LICENSE)
+
