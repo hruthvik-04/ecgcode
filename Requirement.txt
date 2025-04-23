@@ -1,0 +1,30 @@
+# Core Flask and Database
+Flask==2.3.2
+Flask-Login==0.6.2
+Flask-MySQLdb==1.0.1
+Flask-Bcrypt==1.0.1
+mysqlclient==2.2.0
+
+# ECG Processing and ML
+numpy==1.24.4
+pandas==2.0.3
+scipy==1.10.1
+wfdb==4.1.1
+neurokit2==0.2.2
+tensorflow==2.12.0
+plotly==5.15.0
+
+# Utilities
+pytz==2023.3
+python-dotenv==1.0.0
+uuid==1.30
+python-dateutil==2.8.2 
+
+
+xhtml2pdf==0.2.11
+weasyprint==58.0
+
+
+urllib3==2.0.7  
+base64==1.2.1   
+logging==0.4.9.6 
