@@ -210,9 +210,26 @@ mysql -u root -p < schema_setup.sql
 ```
 
 
+## 🛠 Installation & Setup
+
+### Prerequisites
+- Python 3.8+
+- MySQL Server
+- System dependencies:
+  ```bash
+  # For Ubuntu/Debian
+  sudo apt-get install python3-dev default-libmysqlclient-dev build-essential libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf-2.0-0 libffi-dev shared-mime-info
 
 
+---
 
+---
+## 🌟 Features
+- **Multi-user authentication** (Doctors/Staff)
+- **MIT-BIH Arrhythmia Database** integration
+- **Interactive Plotly charts** for ECG visualization
+- **Risk score calculation** (Framingham/GRACE)
+- **Responsive web interface**
 ---
 
 ## Tech Stack
@@ -226,6 +243,35 @@ mysql -u root -p < schema_setup.sql
 | **Deployment**    | Docker, AWS |
 
 ---
+
+---
+Setup
+Clone the repository:
+```
+bash
+git clone https://github.com/yourusername/ecg-arrhythmia-detector.git
+cd ecg-arrhythmia-detector
+
+```
+Create and activate virtual environment:
+```
+bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate    # Windows
+```
+Install dependencies: from  Requirement.txt
+
+
+```
+bash
+pip install -r Requirement.txt
+
+```
+
+Configure MySQL: WITH YOUR PASSWORD AND host
+
+
 
 ## License
 MIT License - See [LICENSE](LICENSE)
