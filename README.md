@@ -249,8 +249,8 @@ Setup
 Clone the repository:
 ```
 bash
-git clone https://github.com/yourusername/ecg-arrhythmia-detector.git
-cd ecg-arrhythmia-detector
+git clone https://github.com/hruthvik-04/ecgcode.git
+cd ecgcode
 
 ```
 Create and activate virtual environment:
